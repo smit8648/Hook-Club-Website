@@ -58,3 +58,7 @@ h2 {
 	margin-right: 8px;
 	font-family: 'Roboto Slab';
 }
+
+table, th, td, tr {
+  border: 1px solid black;
+}
