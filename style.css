@@ -62,3 +62,25 @@ h2 {
 table, th, td, tr {
   border: 1px solid black;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: right;
+  margin: 10px;
+
+}
+
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+} 
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+	 }
+
