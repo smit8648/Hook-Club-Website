@@ -1,49 +1,80 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Basic Theme Made By www.w3schools.com - No Copyright -->
+  <title>Hook Club Website</title>
   <meta charset="utf-8">
-
-  <title>UMN Hook Club</title>
-  <meta name="description" content="The Official Site for University of Minnesota TC Hook Club">
-  <meta name="author" content="SitePoint">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-
 <body>
-  	<script src="js/scripts.js"></script>
 
-<img src="photos/hookclublogo.png" alt="Logo for Hook Club" width="180px" height="140px">
+<!-- Navbar -->
+<nav class="navbar navbar-default bg-5">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Hook Club</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="who.html">WHO</a></li>
+        <li><a href="about.html">WHAT</a></li>
+        <li><a href="where.html">WHERE</a></li>
+        <a href="https://www.facebook.com/groups/umnhookclub/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/umnhookclub?lang=en" class="fa fa-twitter"></a>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-		<h5 id="location">Monday Nights, 8PM. Akerman Hall, Room 209.</h5>
-		<br>
-		<a href="https://www.facebook.com/groups/umnhookclub/" class="fa fa-facebook"></a>
-		<a href="https://twitter.com/umnhookclub?lang=en" class="fa fa-twitter"></a>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div>
 
-		<ul class="navbar">
-		  <li><a href="index.html">Home</a></li>
-		  <li><a href="news.html">News</a></li>
-		  <li><a href="upcoming.html">Upcoming Events</a></li>
-		  <li><a href="about.html">About</a></li>
-		</ul>
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
 
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
 
-  	<div class="landingpage">
-
-		<!-- <h1 id="title">Welcome to Hook Club!</h1>
-		<hr> -->
-		<br>
-
-		<h2>What is Hook Club?</h2>
-		<p style="font-style: italic"> Hook Club is music discussion club at the University of Minnesota, offering a weekly group discussion space for contemporary and classic music of all genres. We strive to offer an open, welcoming environment for students of all backgrounds at the U. </p>
-
-		<!-- <img id="vinyl" src="photos/billboardvinyl.jpg" alt="Billboard.com Vinyl"> -->
-	</div>
-	
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center"> 
+</footer>
 
 </body>
 </html>
