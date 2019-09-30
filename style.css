@@ -49,7 +49,7 @@
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: auto;
   text-align: center;
   text-decoration: none;
 }
@@ -70,3 +70,28 @@
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+.about-home {
+font-size: 18px;
+display: inline-block;
+max-width: 50%;
+line-height: 1.5em;
+text-align: left;
+margin-left: 25px;
+padding-left: 20px;
+padding-right: 60px;
+
+
+}
+
+h3.margin {
+  font-weight: bold;
+  font-size: 26px;
+  margin-left: 0px;
+}
+
+.what-home {
+  margin-left: 225px;
+  margin-right: 225px;
+}
+
