@@ -1,3 +1,12 @@
+ html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
   body {
     font: 20px Raleway, sans-serif;
     line-height: 1.8;
@@ -5,8 +14,10 @@
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
+
+
   .bg-1 { 
-    background-color: rgba(99, 121, 242, 0.8); /* royal blue */
+    background-color: rgba(99, 121, 242, 0.8); /* light blue */
     color: #ffffff;
 
   }
@@ -72,27 +83,32 @@
   color: white;
   padding-right: 15px;
 }
-.about-home {
-font-size: 18px;
-display: inline-block;
-max-width: 50%;
-line-height: 1.5em;
-text-align: left;
-margin-left: 25px;
-padding-left: 20px;
-padding-right: 60px;
 
 
-}
-
-h3.margin {
+#homemediatext {
+  font-weight: 24px;
   font-weight: bold;
-  font-size: 26px;
-  margin-left: 0px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
-.what-home {
-  margin-left: 225px;
-  margin-right: 225px;
+
+a.navbar-brand {
+  padding-left: 0px;
+}
+
+.container-navbar {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+}
+
+#row-photo{
+  margin-bottom: 80px;
+}
+
+.p-content-home{
+margin-right: 40px;
 }
 
