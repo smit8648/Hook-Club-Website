@@ -17,7 +17,7 @@
 
 
   .bg-1 { 
-    background-color: rgba(99, 121, 242, 0.8); /* light blue */
+    background-color: rgba(64, 94, 184, 0.8); /* light blue */
     color: #ffffff;
 
   }
@@ -115,4 +115,22 @@ margin-right: 40px;
 .gallery-photo {
   /*this is only for gallery photos below the first three */
   margin-top: 80px;
+}
+
+.header-style{
+  margin-left:40px;
+
+}
+
+.header-style2 {
+  margin-left: 0px;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
 }
