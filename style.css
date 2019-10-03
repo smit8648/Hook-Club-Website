@@ -112,3 +112,7 @@ a.navbar-brand {
 margin-right: 40px;
 }
 
+.gallery-photo {
+  /*this is only for gallery photos below the first three */
+  margin-top: 80px;
+}
