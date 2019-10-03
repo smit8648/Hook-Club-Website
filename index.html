@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic Theme Made By www.w3schools.com - No Copyright -->
+  <!-- Basic Template Made By www.w3schools.com - No Copyright -->
   <title>Home - Hook Club</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +11,26 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Twitter Function -->
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
 </head>
 <body>
 
@@ -112,7 +132,11 @@
 
 
 <!-- Footer -->
-<footer class="container-fluid bg-5 text-center"> 
+<footer class="container-fluid bg-5 text-center">
+<h4>Get connected with us!</h4>
+<a href="https://twitter.com/messages/compose?recipient_id=4870550437"
+  class="twitter-dm-button" data-screen-name="@umnhookclub">
+Message @umnhookclub</a>
 </footer>
 
 </body>
