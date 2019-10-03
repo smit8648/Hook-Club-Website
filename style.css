@@ -127,10 +127,10 @@ margin-right: 40px;
 }
 
 .vl {
-  border-left: 6px solid white;
+  border-left: 4px solid white;
   height: 400px;
   position: absolute;
   left: 50%;
-  margin-left: -3px;
+  margin-left: -4px;
   top: 0;
 }
